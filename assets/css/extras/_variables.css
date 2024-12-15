@@ -1,0 +1,112 @@
+/* some variables */
+
+/* copyright 2023 @scotlyema 
+*/
+
+
+/* global variables
+*/
+
+:root {
+    /* colors
+    */
+
+    --text-light-gray: #cecccc;
+    --text-x-dark-gray: #333333;
+    --text-dark-gray: #8d8d8d98;
+    --bg-logo-gray: #e7e7e7;
+    --text-logo-dark-gray: #333333;
+
+    --label-light-gray: #e4e4e4;
+
+    --text-light-gray: #eeeeee;
+
+    --nav-hover-color: #e4b827;
+    --panel: #1e1e1e;
+    --accent-dark: #a0101a;
+    --main-color: #ff2c1f;
+    --text-color:#181616;
+    --bg-color: #fff;
+    --hover-color: #ffffff;
+    --live-indicator-shadow: rgba(121, 6, 6, 0.712);
+    --live-indicator: rgba(255, 0, 0, 0.795);
+    --off-white: rgba(199, 159, 159, 0.815);
+    --header-blur: rgba(5, 5, 5, 0.336);
+    --bshadow-color:  rgba(27, 27, 27, 0.6);
+    --box-shadow: 0 0 6px #ff2c1f,
+                 0 0 8px #ff2c1f,
+                 0 0 6px #ff2c1f,
+                 0 0 0px #ff2c1f;
+
+    --text-shadow: 0 0 8px #ff2c1f,
+                 0 0 10px #ff2c1f,
+                 0 0 10px #ff2c1f,
+                 0 0 0px #ff2c1f;
+
+     --linear-gradient: linear-gradient(145deg, #e1e1e1, #fff);
+     
+     --linear-gradient-box-shadows: 3px 3px 4px #e6e6e6, 
+                             -3px -3px 4px #ffffff;
+
+
+    --header-blur-hover: rgba(5, 5, 5, 0.336);
+
+    --dol-red: #ff574e;
+
+     --sideNav: #ffffff;
+
+     --box-shadow-hover: #ff574e;
+
+     --text-shadow-hover:  #ff574e;
+              
+/* Typegraphy
+    */
+    
+      
+    --ff-poppins: 'Poppins', sans-serif;
+
+
+    --section-heading: 40px;
+    --fs-lg:           22px;
+    --fs-lg-ex:        50px;
+
+    --fs-4x:           80px;
+    --fs-3x:           35px;
+    --fs-2x:           26px;
+    --fs-x:           20px;
+
+    --fs-md:           16px;
+    --fs-sm:           14px;
+    --fs-x-sm:         12px;
+
+
+    --fw-7: 700;
+    --fw-6: 600;
+    --fw-5: 500;
+    --fw-4: 400;
+    --fw-3: 300;
+    --fw-2: 200;
+
+    /* spacing
+    */
+       --px:120px; /* padding-left & padding right */
+}
+    
+
+/* font family */
+@font-face {
+    font-family: 'poppins';
+    src: url(/assets/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+/*relaway font family*/
+@font-face {
+    font-family: 'rale';
+    src: url(/assets/fonts/Raleway/static/Raleway-Regular.ttf);
+}
+
+/*mont font family*/
+@font-face {
+    font-family: 'montserrat';
+    src: url(/assets/fonts/Montserrat/static/Montserrat-Regular.ttf);
+}

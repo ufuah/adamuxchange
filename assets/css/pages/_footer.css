@@ -1,0 +1,26 @@
+.footer {
+    padding: 10px 0;
+    margin-top: 38px;
+    text-align: center;
+}
+
+.footer h3 {
+    font-size: var(--fs-2x);
+    margin: 0 0 15px;
+    font-weight: 500;
+}
+
+.hr-social{
+    width: 60%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+}
+
+
+.copyright {
+    left: 30%;
+    top: 39px;
+    text-align: center;
+    color: var(--text-color);
+}

@@ -1,0 +1,86 @@
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 17px 0;
+   transition: 0.1s ease-in-out;
+}
+
+.button {
+    background: #ffffff;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    place-items: center;
+    overflow: hidden;
+}
+
+.button:hover .fa-brands {
+   color: #ffffff;
+}
+
+.footer .fa-brands {
+    display: flex;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+    align-items: center;
+    transition: 0.3s ease;
+    color: #363636;
+}
+
+.footer .fa-brands i{
+    font-size: 18px;
+    color: #363636;
+}
+
+
+.button .fa-facebook {
+    color: #1a6ed8;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.fb:hover {
+    background: #1a6ed8;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.button .fa-twitter {
+    color: #1da1f2;
+}
+
+.tw:hover {
+    background: #1da1f2;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.button .fa-youtube {
+    color: #fe0000;
+}
+
+.yb:hover {
+    background: #fe0000;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.button .fa-tiktok {
+    color: #363636;
+}
+
+.tik:hover {
+    background: #363636;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.button .fa-instagram {
+    color: #262626;
+}
+
+.inst:hover {
+    background: #363636;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+}

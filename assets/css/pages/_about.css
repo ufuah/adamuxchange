@@ -1,0 +1,44 @@
+.about {
+    background-color: var(--bg-color);
+    padding-block-end: 0;
+}
+
+.section-list {
+    margin-block: 35px;
+}
+
+.section-title {
+    font-size: var(--fs-4x);
+    margin: 0 0 20px;
+    text-transform: capitalize;
+}
+
+.section-item:not(:last-child) {
+    margin-block-end: 25px;
+}
+
+.section-item .titlewrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-block-end: 15px;
+}
+
+.section-item .titlewrapper .fa-check {
+    flex-shrink: 0;
+    color: var(--nav-hover-color);
+    font-size: 24px;
+}
+
+.about .container {
+    display: grid;
+    grid-template-columns: 1fr 0.8fr;
+    padding-top: 14%;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-banner {
+    margin-block-end: 40px;
+}

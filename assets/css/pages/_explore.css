@@ -1,0 +1,128 @@
+.explore {
+    background-color: var(--bg-color);
+    padding-block-end: 0;
+    padding-top: 24%;
+}
+
+.popular {
+    background: var(--header-blur);
+    border-radius: 30px;
+    backdrop-filter: blur(5px);
+    transition: 0.5s;
+    padding: 20px;
+    margin-block-start: -160px;
+}
+
+.popular .tab-nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-block-end: 20px;
+    margin-block-end: 20px;
+}
+
+.popular .tab-btn {
+    color: var(--text-light-gray);
+    font-size: var(--fs-md);
+    padding: 7px 15px;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    user-select: none;
+    text-transform: capitalize;
+}
+
+.popular .tab-btn:is(:hover, .active) {
+    background-color: var(--nav-hover-color);
+    transition: all 0.3s ease;
+}
+
+
+
+.popular .tab-content {
+    display: grid;
+    gap: 18px;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.trending-card {
+    padding: 20px;
+    border-radius: 30px;
+    transition: all 0.5s ease;
+}
+
+.trending-card:is(:hover, .active) {
+    background: var(--header-blur);
+    border-radius: 30px;
+    color: var(--bg-color);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+    transition:all 0.5s ease;
+}
+
+.trending-card .card-titlewrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.trending-card .card-title {
+    color: var(--text-light-gray);
+    font-size: var(---fs-sm);
+    font-weight: var(--fw-5);
+}
+
+.trending-card .card-title .span {
+    color: var(--label-light-gray);
+    display: inline-block;
+    margin-inline-start: 5px;
+}
+
+.trending-card .card-value {
+    color: var(--text-light-gray);
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-3);
+    margin-block: 10px;
+}
+
+.trending-card .card-analysics {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.trending-card .current-price {
+    font-size: var(--fs-md);
+    font-weight: 700;
+    margin-top: -6px;
+}
+
+.trending-card .change {
+    color: #aaa;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: -6px;
+}
+
+.trending-card.rising {
+    background: linear-gradient(
+        90deg, #202022, #15ff002c
+    );
+}
+
+.trending-card.rising  .card-analysics .current-price {
+    color: #30ff20;
+}
+
+
+.trending-card.falling {
+    background: linear-gradient(
+        90deg, #202022, #ff000028
+    );
+}
+
+.trending-card.falling  .card-analysics .current-price {
+    color: #ff4040;
+}
+
+.card-titlewrapper img {
+    width: 35%;
+    height: 35%;
+}

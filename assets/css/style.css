@@ -1,0 +1,56 @@
+/* global */
+@import url(./extras/_global.css);
+
+/*variables */
+@import url(./extras/_variables.css);
+
+/*btn */
+@import url(./extras/_btn.css);
+
+/*scroll */
+@import url(./extras/_scrollbar.css);
+
+
+/*----------- pages ------------*/
+
+/*nav-desktop */
+@import url(./pages/_header.css);
+
+/*hero section */
+@import url(./pages/_hero.css);
+
+/*explore section */
+@import url(./pages/_explore.css);
+
+/*about section */
+@import url(./pages/_about.css);
+
+/*contact section */
+@import url(./pages/_contact.css);
+
+/*footer section */
+@import url(./pages/_footer.css);
+
+/*social section */
+@import url(./pages/_socials.css);
+
+/*media section */
+@import url(./pages/_media.css);
+
+/*media section */
+@import url(./pages/_mobile-nav.css);
+
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+
+button {
+    background: none;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+}
